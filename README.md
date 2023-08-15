@@ -19,11 +19,15 @@ The colour names dataset was downloaded from Kaggle (available from: https://www
 
 A logistic regression model was trained on the training dataset. Once trained, the model was used to predict colour classifications on the holdout 'testing' dataset. Classification accuracy of the model is shown in the confusion matrix below. 
 
+<p align="center">
 <img width="349" alt="image" src="https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/67258e43-9630-43ce-8c0a-29af9007af4e">
+</p>
 
 Figure 1 – A confusion matrix showing the accuracy of predicted classes on the testing dataset.
 
+<p align="center">
 <img width="301" alt="image" src="https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/5b5772d3-fde9-4628-b8b4-24308f37c2e4">
+</p>
 
 Figure 2 - Classification report of model accuracy.
 
