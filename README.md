@@ -16,7 +16,7 @@ The colour names dataset was downloaded from Kaggle (available from: https://www
 
 **Results**
 
-A logistic regression model was trained on the training dataset. Once trained, the model was used to predict colour classifications on the holdout dataset. Classification accuracy of the model is shown in the confusion matrix below. 
+A logistic regression model was trained on the training dataset. Once trained, the model was used to predict colour classifications on the holdout 'testing' dataset. Classification accuracy of the model is shown in the confusion matrix below. 
 
 <img width="349" alt="image" src="https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/67258e43-9630-43ce-8c0a-29af9007af4e">
 
