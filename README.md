@@ -9,7 +9,7 @@ Colourblindness is a common visual impairment affecting approximately 8% of male
 
 Advancements in technology, particularly in the realms of machine learning and computer vision, offer promising avenues to address the obstacles faced by colourblind individuals including aiding diagnosis [4]. By harnessing the capabilities of these technologies, it becomes possible to provide real-time assistance to users, allowing them to perceive and distinguish colours accurately. Such solutions hold the potential to significantly enhance the independence for individuals with colour vision deficiencies. Furthermore, the integration of technology in this context emphasizes the broader societal commitment to inclusivity and accessibility [5]. 
 
-Here we develop a *ColourDetectorApp* using machine learning and computer vision to classify rudimentary colours using RGB pixel values obtained through a standard USB camera. By training a logistic regression algorithm, the app accurately interprets these values and provides real-time colour labels. Critically, we hope to see this technology developed further to promote equitable opportunities for colourblind individuals. 
+Here we develop *ColourDetectorApp* using machine learning and computer vision to classify rudimentary colours using RGB pixel values obtained through a standard USB camera. By training a logistic regression algorithm, the app accurately interprets these values and provides real-time colour labels. Critically, we hope to see this technology developed further to promote equitable opportunities for colourblind individuals. 
 
 **Data Processing**
 
