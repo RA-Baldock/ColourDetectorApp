@@ -11,15 +11,14 @@ Advancements in technology, particularly in the realms of machine learning and c
 
 Here we develop *ColourDetectorApp* using machine learning and computer vision to classify rudimentary colours using RGB pixel values obtained through a standard USB camera. By training a logistic regression algorithm, the app accurately interprets these values and provides real-time colour labels. Critically, we hope to see this technology developed further to promote equitable opportunities for colourblind individuals. 
 
-<p align="center">
-<img src=https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/3c30a6c4-2b21-41f7-bfb3-ee97e4bafb2e width="400" height="400">
-</p>
+https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/a3ebc325-282c-4fda-85fd-3d9a505628b4
+
 
 **Data Processing**
 
 The colour names dataset was downloaded from Kaggle (available from: https://www.kaggle.com/datasets/avi1023/color-names). The dataset contains colour labels and RGB values for 1298 colours. The dataset was simplified by subsetting for colour labels containing key labels to be classified in the final model (i.e. 'blue', 'red', 'green', 'white', 'grey', 'yellow', 'pink', 'orange', 'purple', 'black'). The simplified dataset contained 311 colour labels and associated RGB values. The distribution of classes in the resulting dataset are not evenly distributed. In some cases, a specific colour label and associated RGB value may only feature once. To overcome this, random oversampling using the imbalanced-learn python library was used to avoid introducing bias into the algorithm. Random oversampling artificially increases the representation of minority classes through the duplication of instances. After oversampling, a dataset of 860 colours were then used to train and test the algorithm. A training and testing dataset was created by splitting the data. 80% of the data are contained within the training set, while a 20% holdout set was assigned to the testing set. The Scikit-Learn python library was used to train the machine learning algorithm. 
 
-**Results**
+**Testing**
 
 A logistic regression model was trained on the training dataset. Once trained, the model was used to predict colour classifications on the holdout 'testing' dataset. Classification accuracy of the model is shown in the confusion matrix below. 
 
@@ -34,6 +33,9 @@ Figure 1 – A confusion matrix showing the accuracy of predicted classes on the
 </p>
 
 Figure 2 - Classification report of model accuracy.
+
+**Future Considerations**
+Further work is required to develop this application and to enable it to work a smartphone. The application is designed in Kivy and should allow the packaging of the application for distribution. 
 
 **References**
 
