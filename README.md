@@ -11,9 +11,9 @@ Advancements in technology, particularly in the realms of machine learning and c
 
 Here we develop *ColourDetectorApp* using machine learning and computer vision to classify rudimentary colours using RGB pixel values obtained through a standard USB camera. By training a logistic regression algorithm, the app accurately interprets these values and provides real-time colour labels. Critically, we hope to see this technology developed further to promote equitable opportunities for colourblind individuals. 
 
-
-https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/3c30a6c4-2b21-41f7-bfb3-ee97e4bafb2e
-
+<p align="center">
+<img src=https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/3c30a6c4-2b21-41f7-bfb3-ee97e4bafb2e width="400" height="400">
+</p>
 
 **Data Processing**
 
