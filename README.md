@@ -11,10 +11,7 @@ Advancements in technology, particularly in the realms of machine learning and c
 
 Here we develop *ColourDetectorApp* using machine learning and computer vision to classify rudimentary colours using RGB pixel values obtained through a standard USB camera. By training a logistic regression algorithm, the app accurately interprets these values and provides real-time colour labels. Critically, we hope to see this technology developed further to promote accessibility. 
 
-
-
 https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/8e59c549-d2d8-4c79-a4b7-2ddaecb240a7
-
 
 
 **Data Processing**
@@ -26,13 +23,13 @@ The colour names dataset was downloaded from Kaggle (available from: https://www
 A logistic regression model was trained on the training dataset. Once trained, the model was used to predict colour classifications on the holdout 'testing' dataset. Classification accuracy of the model is shown in the confusion matrix below. 
 
 <p align="center">
-<img width="349" alt="image" src="https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/67258e43-9630-43ce-8c0a-29af9007af4e">
+<img width="349" alt="image" src="https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/d80cb7c8-92b7-4ff5-8721-a65b1e48b4cb">
 </p>
 
 Figure 1 – A confusion matrix showing the accuracy of predicted classes on the testing dataset.
 
 <p align="center">
-<img width="301" alt="image" src="https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/5b5772d3-fde9-4628-b8b4-24308f37c2e4">
+<img width="301" alt="image" src="https://github.com/RA-Baldock/ColourDetectorApp/assets/79604468/94b7c56f-1559-4ca5-aefb-bfbe84ceccce">
 </p>
 
 Figure 2 - Classification report of model accuracy.
