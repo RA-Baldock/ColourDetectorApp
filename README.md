@@ -35,7 +35,7 @@ Figure 1 – A confusion matrix showing the accuracy of predicted classes on the
 Figure 2 - Classification report of model accuracy.
 
 **Future Considerations**
-Further work is required to develop this application and to enable it to work a smartphone. The application is designed in Kivy and should allow the packaging of the application for distribution. 
+The current iteration works by launching the Kivy application through a Python IDE. Further work is required to develop this application and to enable it to work a smartphone. The application is designed in Kivy and should allow the packaging of the application for distribution. 
 
 **References**
 
